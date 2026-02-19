@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bestclgs.css">
+    <link rel="icon" type="image/x-icon" href="pics/fav.jpg">
+    <title>Showlink</title>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #1F2F98;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        #search-bar {
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+            border: none;
+        }
+        .footer {
+            position:relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:#1F2F98;
+            color: white;
+            text-align: center;
+        }
+        .district {
+            margin: 20px;
+        }
+        .grade {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #1F2F98;
+            border-radius: 5px;
+        }
+        
+        table,th,td{
+            border:1px solid;
+            align-content: center;
+            padding: 1cqmax;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            position: relative;
+            margin: 0 10px;
+        }
+        .image-container img {
+            width: 180px;
+            height: 200px;
+            border-radius: 10px;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .image-container:hover img {
+            opacity: 0.5;
+        }
+        .image-container .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 30px;
+            text-shadow: 2px 2px 4px #000000;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .image-container:hover .text {
+            opacity: 1;
+        }
+        .lin{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        #clr{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <img src="pics/logo.jpg" width="180px" height="50px">
+        <a href="home.html">Home</a>
+        <a href="districts.html">Districts</a>
+        <a href="services.html">Services</a>
+       
+        <a href="register.html">Register</a>
+        <a href="profiles.html">Profiles</a>
+        <input type="text" id="search-bar" placeholder="Search...">
+      </div>
+
+<h1>Our Profiles</h1>
+<p> details of the Developers for this Site </p>
+<div class="row">
+    <div class="image-container">
+        <img src="pics/dada.jpg" alt="">
+        <div class="text"><a href="dada.html" class="lin">DADA KALANDAR</a></div>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="image-container">
+        <img src="pics/rahul.jpg" alt="">
+        <div class="text"><a href="rahul.html" class="lin">  RAHUL</a></div>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="image-container">
+        <img src="pics/ismail.jpg" alt="">
+        <div class="text"><a href="ismail.html" class="lin">ISMAIL</a></div>
+    </div>
+</div>
+<br><br><br>
+<div class="row">
+    <div class="image-container">
+        <img src="pics/lavanya.jpg" alt="">
+        <div class="text"><a href="lavanya.html" class="lin">LAVANYA</a></div>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="image-container">
+        <img src="pics/lahari.jpg" alt="">
+        <div class="text"><a href="lahari.html" class="lin">BINDU LAHARI</a></div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <p id="clr">Show Link: Copyright © 2024</p>
+</div>
+</body>
+</html>
